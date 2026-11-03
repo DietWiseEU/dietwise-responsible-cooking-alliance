@@ -25,8 +25,7 @@ async function readPageContentChrome(tabId: number): Promise<string> {
 
 async function readPageContentFirefox(tabId: number): Promise<string> {
 	const results = await browser.scripting.executeScript({
-		// XXX The type of func in @types/firefox-webext-browser is probably a bug
-		func: (() => document.documentElement.outerHTML) as unknown as () => void,
+		func: () => document.documentElement.outerHTML,
 		target: { tabId: tabId },
 	});
 	if (results.length === 0) {

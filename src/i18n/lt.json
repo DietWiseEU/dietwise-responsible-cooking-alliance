@@ -71,13 +71,13 @@
 		"welcome2": "Keliaukite į tinklapį, kuris pateikia receptus tekstu (ne garsu, vaizdu ar video) ir sekite instrukcijas žemiau.",
 		"titleInstructions": "Instrukcijos",
 		"paragraph1": "Paspauskite mygtuką aukščiau, kad pasiektumėte receptą šiame puslapyje.",
-		"paragraph2": "Vertinimas vyksta dviejuose žingsniuose: (1) įkeliant receptą iš puslapio ir (2) pasiūlant sveikesnių ir/ar tvaresnių ingridientų alternatyvą. Programa ingridientų sąrašą atvaizduoja viršutinėje puslapio dalyje, o pasiūlymus - apatinėje dalyje. ",
+		"paragraph2": "Vertinimas vyksta dviejuose žingsniuose atliekamas dviem žingsniais: (1) įkeliant receptą iš puslapio ir (2) pasiūlant sveikesnių ir/ar tvaresnių ingridientų ingredientų alternatyvą. Programa ingridientų ingredientų sąrašą atvaizduoja viršutinėje puslapio dalyje, o pasiūlymus - apatinėje dalyje. ",
 		"paragraph3": "Naršant pasiūlymus, turite tris pasirinkimus:",
 		"explainUndecidedButton": "Palikti pasiūlymą be sprendimo",
 		"explainApproveButton": "Priimti pasiūlymą - spausti",
 		"explainRejectButton": "Atmesti pasiūlymą - spausti",
 		"paragraph4": "Spauskite mygtuką (\"Priimti\" ar \"Atmesti\") dar kartą, jei norite palikti pasiūlymą be sprendimo",
-		"paragraph5": "Kitas būdas pakeisti pasiūlymo būseną į \"be sprendimo\" yra spaudžiant \"minuso\" ikonėlę prie pakeistų ingridientų recepte viršutinėje puslapio dalyje.",
+		"paragraph5": "Kitas būdas pakeisti pasiūlymo būseną į \"be sprendimo\" yra spaudžiant \"minuso\" ikonėlę prie pakeistų ingridientų ingredientų recepte viršutinėje puslapio dalyje.",
 		"loginParagraph1": "Spauskite mygtuką \"Prisijungti\", tam kad prisijungtumėte arba užsiregistruotumėte. Naujas puslapis atsidarys jūsų naršyklėje (už įskiepio ribų). Šiame puslapyje galėsite užbaigti registraciją arba prisijungimą."
 	}
 }

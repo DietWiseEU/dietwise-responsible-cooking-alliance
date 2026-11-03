@@ -10,6 +10,8 @@ const js = require('@eslint/js');
 
 const { FlatCompat } = require('@eslint/eslintrc');
 
+const { defaultConditionNames } = require('eslint-import-resolver-typescript');
+
 const compat = new FlatCompat({
 	baseDirectory: __dirname,
 	recommendedConfig: js.configs.recommended,
@@ -66,7 +68,11 @@ module.exports = defineConfig([
 
 			// https://devrsi0n.com/articles/eslint-typescript-import-unsolve
 			'import-x/resolver': {
-				typescript: true,
+				typescript: {
+					// TypeScript >= 5.5 understands versioned `types@>=5.5` export conditions (used e.g. by jotai);
+					// the resolver matches condition names literally, so it would otherwise resolve to the fallback stub
+					conditionNames: ['types@>=5.5', ...defaultConditionNames],
+				},
 				node: true,
 			},
 		},

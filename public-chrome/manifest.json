@@ -2,8 +2,9 @@
 	"name": "__MSG_extensionName__",
 	"description": "__MSG_extensionDescription__",
 	"default_locale": "en",
-	"version": "1.1.3",
+	"version": "1.1.4",
 	"manifest_version": 3,
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz7E5EqEtEnQMYaL9mFjrVVWhAxAf/B/KnyLQtn0QwlPwxpw12r3MR1OXepO4m45xtV0I+1GWA76b12pF6KimeWRBgQuhS10hy7kkDKD5bxmweJ5oOuNVHCw9Z5fsjKka3KLKKD+i0RlZfHkikePnGbXMlQrDAh3rW+P8q1dxML0OrPhgpyICjquGRrrprp7OFYFPosyVuPKH2Jk9Trb7YhnkSxWVoW0l5HRfm1SsMSzPyM4yYmUrgNaWbvtA58ZhR8chKM6rhsUEnWkU9lUJQ+2V2JRuiKTi9qP4XX4FqLnCDwC1FJBNd3Yg7ECGMUSyd3MqmDXF9U1uA0Vdtk9NBwIDAQAB",
 	"action": {
 		"default_title": "Click to open",
 		"default_icon": {
