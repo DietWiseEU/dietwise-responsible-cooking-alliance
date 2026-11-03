@@ -51,7 +51,13 @@
 			"notTheAssessedPage": "Informacija pateikta ne apie šią svetainę"
 		},
 		"RatingComponent": {
-			"rating": "Reitingas"
+			"rating": "Reitingas",
+			"score": "Įvertinimas {{score}} iš {{max}}",
+			"detailsTitle": "Šiame recepte esantys komponentai",
+			"encouragedPresent": "Skatinamas",
+			"limitedPresent": "Apriboti",
+			"none": "Nėra",
+			"OK": "Gerai"
 		},
 		"SuggestionsComponent": {
 			"title": "Pasiūlymas - Patarimas",

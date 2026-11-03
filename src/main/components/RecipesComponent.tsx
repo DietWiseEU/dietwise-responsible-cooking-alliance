@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import IngredientComponent from './IngredientComponent';
 import RatingComponent from './RatingComponent';
-import type { IngredientStateType, Recipe, RecipeDetectionType, SuggestionState } from '@/main/model';
+import type { IngredientStateType, Rating, Recipe, RecipeDetectionType, SuggestionState } from '@/main/model';
+import { MAX_RATING } from '@/main/reducers/calculateRating';
 import Markdown from 'react-markdown';
 import BrainIcon from '@/assets/images/brain.svg?react';
 import JsonLdIcon from '@/assets/images/json-ld.svg?react';
@@ -9,7 +10,7 @@ import JsonLdIcon from '@/assets/images/json-ld.svg?react';
 export interface RecipesComponentProps {
 	recipes: Recipe[];
 	detectionTypes?: RecipeDetectionType[];
-	rating?: number;
+	rating?: Rating;
 	suggestions?: { [key: string]: SuggestionState };
 	ingredientState?: IngredientStateType;
 	isSuggestionInFlight: (suggestionKey: string) => boolean;
@@ -39,8 +40,8 @@ const RecipesComponent: React.FC<RecipesComponentProps> = (props: RecipesCompone
 								)
 							) : null}
 						</div>
-						{props.recipes.length === 1 && typeof props.rating === 'number' ? (
-							<RatingComponent rating={10 * props.rating} max={10} />
+						{props.recipes.length === 1 && props.rating ? (
+							<RatingComponent rating={props.rating} max={MAX_RATING} />
 						) : null}
 						{r.recipeIngredients?.length > 0 ? (
 							<div className="mt-4">

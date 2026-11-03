@@ -51,7 +51,13 @@
 			"notTheAssessedPage": "Οι πληροφορίες δεν αφορούν αυτή τη σελίδα!"
 		},
 		"RatingComponent": {
-			"rating": "Βαθμολογία:"
+			"rating": "Βαθμολογία:",
+			"score": "Βαθμολογία {{score}} από {{max}}",
+			"detailsTitle": "Στοιχεία της συνταγής",
+			"encouragedPresent": "Θετικά",
+			"limitedPresent": "Προς περιορισμό",
+			"none": "Κανένα",
+			"OK": "OK"
 		},
 		"SuggestionsComponent": {
 			"title": "Προτάσεις - Συμβουλές",

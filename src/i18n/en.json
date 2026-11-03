@@ -51,7 +51,13 @@
 			"notTheAssessedPage": "The displayed information is not about this page!"
 		},
 		"RatingComponent": {
-			"rating": "Rating:"
+			"rating": "Rating:",
+			"score": "Rating {{score}} out of {{max}}",
+			"detailsTitle": "Components present in this recipe",
+			"encouragedPresent": "Encouraged",
+			"limitedPresent": "To limit",
+			"none": "None",
+			"OK": "OK"
 		},
 		"SuggestionsComponent": {
 			"title": "Suggestions - Advice",

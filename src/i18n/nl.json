@@ -51,7 +51,13 @@
 			"notTheAssessedPage": "De weergegeven informatie gaat niet over deze pagina!"
 		},
 		"RatingComponent": {
-			"rating": "Beoordeling:"
+			"rating": "Beoordeling:",
+			"score": "Beoordeling {{score}} van {{max}}",
+			"detailsTitle": "Componenten aanwezig in dit recept",
+			"encouragedPresent": "Aangemoedigd",
+			"limitedPresent": "Om te beperken",
+			"none": "Geen",
+			"OK": "OK"
 		},
 		"SuggestionsComponent": {
 			"title": "Suggesties - Advies",
