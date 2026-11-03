@@ -88,7 +88,9 @@ const MainPage: React.FC<MainPageProps> = (props: MainPageProps) => {
 					country,
 					accessToken,
 					(message) => {
-						dispatch(createMessageReceivedAction(message));
+						// A keep-alive is no state transition, only the server saying the assessment is still running.
+						const action = createMessageReceivedAction(message);
+						if (action) dispatch(action);
 					},
 					(error) => {
 						cancelRef.current = null;
